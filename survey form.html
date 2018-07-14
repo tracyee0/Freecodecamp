@@ -1,0 +1,86 @@
+<DOCTYTE html >
+<html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width,initial-scale=1.0">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+          <link rel="stylesheet" type="text/css" href="style.css">
+          <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+      </head>
+  <body>
+          <div class="col-md-1 content"> </div>
+          <div class="col-md-10 content">
+                <h1 id="title"> Survey Form </h1>
+      <p id="description"> Let us help you choose a path in software development</p>
+      <form id="survey-form"class="form-group"> 
+          <div>
+          <label id="name" class="form-inline"> Name:</label>
+          <input class="form-control" type="text" placeholder="name" required>
+          </div><br>
+          <div>
+          <label id="email" class="form-inline"> Email:</label>
+          <input class="form-control"type="email" placeholder="email" required>
+          </div><br>
+          <div>
+          <label id="number-label" class="form-inline"> Course number:</label>
+          <input class="form-control" type="number" placeholder="number" required>
+          </div><br>
+          <div>
+          <label class="form-inline"> What do you do for a living?</label>
+          <select class="form-control">
+          <option "disabled"> ---- </option>
+          <option> Junior Software Developer </option>
+          <option> Software Developer(Intern) </option>
+          <option> Unemployed </option>
+          <option> Other Jobs </option>
+          <option> Student </option>
+          </select><br>
+          </div>
+          <div>
+          <label class="form-inline"> How interesting has programming been so far? </label><br>
+          <label> Brain Tasking </label>
+          <input type="radio">
+          <label> Getting Easy </label>
+          <input type="radio">
+          <label> Not interested </label>
+          <input type="radio">
+          </div><br>
+          <div>
+          <label class="form-inline"> What path do you prefer?</label>
+          <select class="form-control">
+                <option "disabled"> ---- </option>
+                <option> Front-End Development </option>
+                <option> Back-End Development </option>
+                <option> Data-Visualization</option>
+                <option> Full-Stack Development </option>
+                </select>
+          </div><br>
+          <div>
+        <label class="form-inline"> Things that should be improved in future (Check all that apply)</label>
+                <div>
+                <label>
+                        <input type="checkbox"> Front-End Projects</label>
+                        </div>
+                            <div><label>
+                                <input type="checkbox">Back-End Projects</label></div>
+                               <div> <label>
+                                        <input type="checkbox"> Help Forum</label></div>
+                                     <div>   <label>
+                                                <input type="checkbox">Add videos</label></div>
+                                            <div>    <label>
+                                                        <input type="checkbox">City meet ups</label> </div></div>
+       <div>   <br>                                              
+        <label class="form-inline text-box"> Any Comments/Suggestions </label>
+        <textarea class="form-control" placeholder="write your comments and suggestions here"></textarea>
+
+        </div>
+        <br>
+        <div>
+        <button type="submit" class="btn btn-success"> submit </button>
+        </div>  </div>
+        <div class="col-md-1 content"></div>
+        </div>                                      
+      </form> 
+    
+  </body>  
+</html>
